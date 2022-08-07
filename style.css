@@ -1,0 +1,88 @@
+/* Default Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container {
+    background-color: #2b2922;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* Navbar Section */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.list {
+    display: flex;
+    color: #5a5851;
+}
+
+.list-item {
+    list-style-type: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.active {
+    color: #fff;
+}
+
+.button-small {
+    background-color: transparent;
+    color: #958634;
+    border: 1px solid #958634;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.hero-heading {
+    color: #fff;
+    font-size: 70px;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+.hero-text {
+    color: #abaaa7;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+/* Hero image */
+
+.hero-image {
+    background: url(./assets/bild.jpg);
+    height: 30vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    margin-top: 100px;
+}
